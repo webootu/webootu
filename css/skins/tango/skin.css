@@ -1,0 +1,129 @@
+.jcarousel-skin-tango .jcarousel-container {
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl {direction: rtl;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 595px;
+    padding: 0 0 0 0;
+	margin:0 auto;
+}
+.jcarousel-skin-tango .jcarousel-clip { overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {width: 595px;
+}
+.jcarousel-skin-tango .jcarousel-item { width: 270px;
+}
+
+.blog_post_block .jcarousel-skin-tango .jcarousel-container-horizontal {width: 595px;
+}
+.blog_post_block .jcarousel-skin-tango .jcarousel-clip-horizontal {width: 595px;
+}
+.blog_post_block .jcarousel-skin-tango .jcarousel-item { width: 270px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 30px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 0;
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+}
+
+/**  Horizontal Buttons  **/
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: -53px;
+    right:0;
+    width: 28px;
+    height: 23px;
+    cursor: pointer;
+    background: transparent url(../../../img/jcarousel_arrows.png) no-repeat -23px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    right:22px;
+    background-image: url(prev-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus { background-position: -23px -30px;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {background-position: -23px 0;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -23px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: -53px;
+    right:27px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    background: transparent url(../../../img/jcarousel_arrows.png) no-repeat 0 0;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    right:0;
+    background-image: url(next-horizontal.png);
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {background-position: 0 -30px;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {background-position: 0 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0 0;
+}
+
+@media (min-width: 1200px) {
+	.jcarousel-skin-tango .jcarousel-container-horizontal, .jcarousel-skin-tango .jcarousel-clip-horizontal {width:870px !important;
+	}
+	.jcarousel-skin-tango .jcarousel-item { width: 270px !important;
+	}
+	.jcarousel-skin-tango .jcarousel-item-horizontal { margin-right: 26px !important; margin-left: 3px !important;
+	}
+	
+.blog_post_block .jcarousel-skin-tango .jcarousel-container-horizontal {width: 1170px !important;
+}
+.blog_post_block .jcarousel-skin-tango .jcarousel-clip-horizontal {width: 1170px !important;
+}
+.blog_post_block .jcarousel-skin-tango .jcarousel-item { width: 270px !important;
+}
+	
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	.clients_logo li {width:312px;
+	}	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	.clients_logo li {width:240px;
+	}
+	
+}
+/*  #Mobile (Portrait - 320, Landscape - 480)
+================================================== */
+@media (max-width: 767px) {
+	
+	.clients_logo li {
+		float:none;
+		width:100%;
+	}
+}
+
